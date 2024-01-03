@@ -1,0 +1,35 @@
+.ecom_navbar_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+
+    .ecom_navbar_logo {
+        display: flex;
+    }
+
+    .ecom_navbar_input {
+        input {
+            border: 2px solid #0D6EFD;
+        }
+
+        .ecom_nav_botton {
+            color: #FFFFFF;
+            background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+            border: none2;
+        }
+    }
+
+    .ecom_navbar_icon {
+        display: flex;
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+            img {
+                margin: 0 auto;
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+}
