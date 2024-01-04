@@ -1,0 +1,27 @@
+.ecom_subnav_Lis li a {
+  font-weight: 77px;
+  margin: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+}
+
+.ecom_subnav_Lis {
+  display: flex;
+}
+.ecom_subnav_div {
+  border: 1px;
+  width: 1440px;
+  height: 56px;
+  margin-top: 20px;
+  margin-left: auto;
+  display: flex;
+}
+.ecom_subnar_paymentDropdown {
+  margin-left: 40px;
+  display: inline;
+}
