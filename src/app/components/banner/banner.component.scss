@@ -1,31 +1,38 @@
 //slidebar
-.ecom_banner {
-  width: 1180px;
-  height: 400px;
+
+.ecom_banner_container {
   flex-shrink: 0;
   display: flex;
+  justify-content: space-between;
+
 
   .ecom_banner_menu {
     width: 250px;
     height: 360px;
     flex-shrink: 0;
     margin: 17px 0px 20px 10px;
+
   }
-  .ecom_banner_menu li {
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 11px 10px 10px 10px;
+  
+  .ecom_banner_menu {
+    li {
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding: 11px 10px 10px 10px;
+    }
   }
   //Banner Img
   .ecom_banner_img {
-    width: 800px;
-    height: 420px;
-    flex-shrink: 0;
-    margin: 17px 0px 10px 10px;
-    object-fit: cover;
+    img {
+      width: 664px;
+      height: 373px;
+      flex-shrink: 0;
+      margin: 17px 0px 10px 10px;
+    }
+
   }
   .img_banner {
     width: 100%;
