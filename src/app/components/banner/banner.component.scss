@@ -8,7 +8,6 @@
     width: 250px;
     height: 360px;
     flex-shrink: 0;
-    margin: 17px 0px 20px 10px;
     display: flex;
   }
   .ecom_banner_menu {
@@ -35,16 +34,11 @@
   }
   //Banner Img
   .ecom_banner_img {
-    img {
-      width: 742px;
-      height: 364px;
-      flex-shrink: 0;
+    .img_banner {
+      width: 100%;
+      position: relative;
       margin: 17px 0px 10px 10px;
     }
-  }
-  .img_banner {
-    width: 100%;
-    position: relative;
   }
 
   .ecom_banner_text {
@@ -82,6 +76,7 @@
 .ecom_banner_loginView {
   width: 200px;
   height: 150px;
+  margin: 17px 0px 20px 10px;
   flex-shrink: 0;
 }
 .ecom_banner_loginMenu {
@@ -90,7 +85,6 @@
   flex-shrink: 0;
   border-radius: 6px;
   background: #e3f0ff;
-  margin: 20px 20px 10px 20px;
 }
 .ecom_login {
   display: flex;
@@ -136,7 +130,7 @@
   flex-shrink: 0;
   border-radius: 6px;
   background: #f38332;
-  margin: 10px 20px 10px 20px;
+  margin-top: 10px;
   padding: 16px 40px 22px 16px;
 }
 //login menu 3rd section
@@ -144,7 +138,7 @@
   width: 200px;
   height: 95px;
   flex-shrink: 0;
-  margin: 10px 20px 10px 20px;
+  margin-top: 10px;
   border-radius: 6px;
   background: #55bdc3;
   padding: 16px 40px 22px 16px;
