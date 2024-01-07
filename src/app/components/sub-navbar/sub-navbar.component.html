@@ -9,34 +9,52 @@
       <li><a href="#">Projects</a></li>
       <li><a href="#">Menu Items</a></li>
       <li>
-        Help
         <select class="dropdown">
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
+          <option
+            [ngStyle]="{
+              'font-family': 'inter',
+              color: '#1c1c1c',
+              'font-weight': ' 500'
+            }"
+            *ngFor="let list of helpDropdown"
+            [value]="list"
+          >
+            {{ list }}
+          </option>
         </select>
       </li>
     </ul>
     <div class="ecom_subnar_paymentDropdown">
       <ul>
         <li>
-          English , USD
           <select class="dropdown">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+            <option
+              [ngStyle]="{
+                'font-family': 'inter',
+                color: '#1c1c1c',
+                'font-weight': ' 500'
+              }"
+              *ngFor="let list of englishDropdown"
+              [value]="list"
+            >
+              {{ list }}
+            </option>
           </select>
         </li>
         <li>
-          <span>Ship to</span>
           <img src="../../../assets/icon.png" title="flag" alt="flag" />
           <select class="dropdown">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+            <option
+              [ngStyle]="{
+                'font-family': 'inter',
+                color: '#1c1c1c',
+                'font-weight': ' 500'
+              }"
+              *ngFor="let list of shipToDropdown"
+              value=""
+            >
+              {{ list }}
+            </option>
           </select>
         </li>
       </ul>

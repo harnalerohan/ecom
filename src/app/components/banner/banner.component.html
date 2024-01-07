@@ -2,23 +2,16 @@
   <!-- banner sidebar -->
   <div class="ecom_banner_menu">
     <ul>
-      <li>Clothes And Wear</li>
-      <li>Home interiors</li>
-      <li>Computer and tech</li>
-      <li>Tools, equipements</li>
-      <li>Sports and Outdoor</li>
-      <li>Animal And pets</li>
-      <li>Machinery Tools</li>
-      <li>More Caregory</li>
+      <li *ngFor="let menu of bannerMenuItems">{{ menu }}</li>
     </ul>
   </div>
   <!-- banner image -->
   <div class="ecom_banner_img">
     <figure class="img_banner">
       <img src="../../../assets/Banner-board-800x420 2 (1).png" alt="" />
-      <div>
-        <p>Latest trending</p>
-        <p>Electronic items</p>
+      <div class="ecom_banner_text">
+        <span>Latest trending</span>
+        <span>Electronic items</span>
         <button>Learn More</button>
       </div>
     </figure>
