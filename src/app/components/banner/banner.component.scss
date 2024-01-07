@@ -13,6 +13,7 @@
   }
   .ecom_banner_menu {
     li {
+      display: block;
       font-family: Inter;
       font-size: 16px;
       font-style: normal;
@@ -20,22 +21,61 @@
       line-height: normal;
       padding: 11px 10px 10px 10px;
     }
+    li:hover,
+    li::after,
+    li::before {
+      background-color: #e5f1ff;
+      font-weight: 500;
+      color: #1c1c1c;
+      font-family: Inter;
+      font-size: 16px;
+      border-radius: 6px;
+      width: 250px;
+    }
   }
   //Banner Img
   .ecom_banner_img {
     img {
-      width: 664px;
-      height: 373px;
+      width: 742px;
+      height: 364px;
       flex-shrink: 0;
       margin: 17px 0px 10px 10px;
     }
   }
   .img_banner {
     width: 100%;
+    position: relative;
   }
-  .ecom_banner_img figcaption {
-    justify-content: center;
-    align-items: center;
+
+  .ecom_banner_text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 95px;
+    left: 49px;
+    span {
+      font-family: Inter;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    span:nth-child(2) {
+      font-family: Inter;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    button {
+      width: 100px;
+      border-radius: 6px;
+      background-color: #fff;
+      border: solid #fff;
+      margin-top: 13px;
+      padding: 5px;
+      color: #1c1c1c;
+      font-weight: 500;
+    }
   }
 }
 //login Menu
