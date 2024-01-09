@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { SubNavbarComponent } from './components/sub-navbar/sub-navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { HomeOutdoorComponent } from './components/home-outdoor/home-outdoor.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BannerComponent } from './components/banner/banner.component';
     LandingPageComponent,
     SubNavbarComponent,
     BannerComponent,
+    HomeOutdoorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

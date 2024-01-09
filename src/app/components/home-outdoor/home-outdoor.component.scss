@@ -1,0 +1,55 @@
+.ecom_homeOutdoor_container {
+  margin-top: 20px;
+  position: relative;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  padding .ecom_homeAndOutdoor_Img img {
+    border-radius: 4px;
+  }
+  .eco_homeDecorItems1 {
+    margin: 10px;
+    // display: flex;
+
+    img {
+      margin: 49px 13px 10px 56px;
+    }
+  }
+  .eco_HomeDecorText {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+  }
+  .homeDecor_text {
+    column-rule: #1c1c1c;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+.ecom_chairText {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  span {
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  p {
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    color: #8b96a5;
+    margin: 10px;
+  }
+}
+.eco_homeDecoreDiv1 {
+  display: flex;
+}
+.eco_homeDecorItems2 {
+  display: flex;
+}

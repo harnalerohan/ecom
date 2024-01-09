@@ -4,9 +4,9 @@
   justify-content: flex-end;
 
   .ecom_subnav_Lis {
-    margin-right: auto;
     text-decoration: none;
     display: flex;
+    margin-right: 248px;
   }
   .ecom_icon {
     height: 24px;
@@ -40,6 +40,9 @@
     font-family: inter;
     font-weight: 500;
     padding-right: 30px;
+  }
+  .ecom_subnar_paymentDropdown {
+    margin-right: 101px;
   }
   .ecom_subnar_paymentDropdown li img {
     padding: 5px;
