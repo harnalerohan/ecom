@@ -1,13 +1,13 @@
 .ecom_inquiry_container {
-  // background-image: url("../../../assets/buildingImg.png");
-  .backgroungImg {
-    position: relative;
-  }
-  .inquiry_img {
-    width: 100%;
-    height: auto;
-    background: linear-gradient(to bottom, rgb(66, 66, 175), rgb(66, 66, 175));
-  }
+  display: flex;
+  justify-content: space-between;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgb(66, 66, 175),
+      rgb(66, 66, 175)
+    ),
+    url("../../../assets/buildingImg.png");
 
   width: 1189px;
   height: 446px;
@@ -15,6 +15,9 @@
   margin-top: 9px;
   .ecom_text {
     padding: 50px;
+
+    /* text-align: center; */
+
     p:nth-child(1) {
       font-family: Inter;
       font-size: 29px;
@@ -34,12 +37,15 @@
 }
 
 .ecom_text {
-  position: absolute;
-  top: 275%;
-  left: 10%;
 }
 .ecom_inquiryContainer {
-  position: absolute;
-  top: 285%;
-  left: 58%;
+  element.style {
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+  }
+}
+.ecom_inquiry_container {
+  width: 100%;
 }
