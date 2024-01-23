@@ -8,6 +8,9 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { SubNavbarComponent } from './components/sub-navbar/sub-navbar.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { HomeOutdoorComponent } from './components/home-outdoor/home-outdoor.component';
+import { ElectronicGadgetsComponent } from './components/electronic-gadgets/electronic-gadgets.component';
+import { InquiryComponent } from './components/inquiry/inquiry.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,8 +20,10 @@ import { HomeOutdoorComponent } from './components/home-outdoor/home-outdoor.com
     SubNavbarComponent,
     BannerComponent,
     HomeOutdoorComponent,
+    ElectronicGadgetsComponent,
+    InquiryComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

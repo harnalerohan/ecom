@@ -1,0 +1,57 @@
+<div class="ecom_inquiry_container">
+  <div class="backgroungImg">
+    <img
+      class="inquiry_img"
+      src="../../../assets/buildingImg.png"
+      alt="building"
+      title="building"
+    />
+  </div>
+  <div class="ecom_text">
+    <p>An easy way to send requests to all suppliers</p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita aut ex
+      accusantium sapiente ea consequatur obcaecati labore sunt neque nihil
+      quam, nostrum unde incidunt blanditiis!
+    </p>
+  </div>
+  <div class="ecom_inquiryContainer">
+    <form [formGroup]="inqueryForm" (ngSubmit)="onSubmit()">
+      <h4>Send quote to suppliers</h4>
+      <!-- 1 -->
+      <div class="form-group">
+        <input
+          type="text"
+          placeholder="what item you need?"
+          formControlName="item"
+        />
+      </div>
+      <!-- 2 -->
+      <div class="form-group">
+        <input
+          row="4"
+          type="textarea"
+          placeholder="Type More Detail"
+          formControlName="item"
+        />
+      </div>
+      <!-- 3 -->
+      <div class="form-group">
+        <input
+          type="text"
+          placeholder="what item you need?"
+          formControlName="item"
+        />
+      </div>
+      <!-- 4 -->
+      <div class="form-group">
+        <input
+          type="text"
+          placeholder="what item you need?"
+          formControlName="item"
+        />
+      </div>
+      <button class="btn btn-primary">Sent Inquiry</button>
+    </form>
+  </div>
+</div>
