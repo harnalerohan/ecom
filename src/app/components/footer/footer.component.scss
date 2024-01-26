@@ -1,6 +1,46 @@
+li {
+  list-style: none;
+}
 .ecom_footer {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--gray-200, #eff2f4);
+
+  margin-right: -138px;
+  margin-left: -138px;
+
+  .ecom_footer_newtslatter {
+    margin: 40px;
+    .text {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1c1c1c;
+      text-align: center;
+    }
+  }
+}
+.ecom_footer_second {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #fff;
+
+  margin-right: -135px;
+  margin-left: -135px;
+
+  .ecom_brand_logo {
+    width: 276px;
+  }
+}
+.ecom_footer_Langauge {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -130px;
+  margin-right: -130px;
+  background-color: #eff2f4;
+  img {
+    margin: 10px;
+  }
 }
