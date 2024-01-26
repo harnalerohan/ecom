@@ -11,6 +11,9 @@ import { HomeOutdoorComponent } from './components/home-outdoor/home-outdoor.com
 import { ElectronicGadgetsComponent } from './components/electronic-gadgets/electronic-gadgets.component';
 import { InquiryComponent } from './components/inquiry/inquiry.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RecommendedItemsComponent } from './components/recommended-items/recommended-items.component';
+import { ExtraServicesComponent } from './components/extra-services/extra-services.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeOutdoorComponent,
     ElectronicGadgetsComponent,
     InquiryComponent,
+    RecommendedItemsComponent,
+    ExtraServicesComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, FormsModule],
   providers: [],

@@ -8,7 +8,7 @@
       quam, nostrum unde incidunt blanditiis!
     </p>
   </div>
-  <div class="ecom_inquiryContainer">
+  <div class="ecom_inquiryform">
     <form [formGroup]="inqueryForm" (ngSubmit)="onSubmit()">
       <h4>Send quote to suppliers</h4>
       <!-- 1 -->
@@ -17,6 +17,7 @@
           type="text"
           placeholder="what item you need?"
           formControlName="item"
+          class="form-control"
         />
       </div>
       <!-- 2 -->
@@ -26,6 +27,7 @@
           type="textarea"
           placeholder="Type More Detail"
           formControlName="item"
+          class="form-control"
         />
       </div>
       <!-- 3 -->
@@ -34,6 +36,7 @@
           type="text"
           placeholder="what item you need?"
           formControlName="item"
+          class="form-control"
         />
       </div>
       <!-- 4 -->
@@ -42,6 +45,7 @@
           type="text"
           placeholder="what item you need?"
           formControlName="item"
+          class="form-control"
         />
       </div>
       <button class="btn btn-primary">Sent Inquiry</button>

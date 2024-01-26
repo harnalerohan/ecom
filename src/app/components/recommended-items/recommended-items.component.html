@@ -1,0 +1,15 @@
+<div class="ecom_reccomanded_container">
+  <h3>Recommended items</h3>
+  <div class="grid-container">
+    <div
+      class="ecom_recommanded1 grid-items"
+      *ngFor="let items of recommandedItemsArray"
+    >
+      <div class="ecom_recommanded1_shirt">
+        <img src="{{ items.imgUrl }}" alt="shirt" title="shirt" />
+      </div>
+      <p class="price">{{ items.price }}</p>
+      <p class="text">{{ items.text }}</p>
+    </div>
+  </div>
+</div>

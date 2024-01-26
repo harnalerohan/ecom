@@ -1,0 +1,54 @@
+.ecom_extraService_container {
+  .ecom_services {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }
+  .ecom_service_img {
+    width: 303px;
+    height: 222px;
+    background-color: #fff;
+    img {
+      width: 100%;
+    }
+    .ecom_services_text {
+      font-size: 16px;
+      font-weight: 600;
+      width: 104px;
+      margin-left: 35px;
+      line-height: 22px;
+    }
+  }
+  .ecom_coutry {
+    margin-top: 10px;
+    display: flex;
+    width: 221px;
+    height: 36px;
+    img {
+      margin-top: 5px;
+    }
+    div {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    a {
+      font-size: 13px;
+      color: #8b96a5;
+      font-weight: 400;
+      margin-left: 10px;
+    }
+  }
+  //country region section
+  .ecom_region_heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1c1c1c;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+  }
+  .ecom_region {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+}

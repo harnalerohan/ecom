@@ -1,0 +1,55 @@
+<div class="ecom_extraService_container">
+  <p>Our Extra Services</p>
+  <div class="ecom_services">
+    <div class="ecom_service_img">
+      <img
+        src="../../../assets/ExtraServices/image1.png"
+        alt="extraService"
+        title="extaService"
+      />
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <p class="ecom_services_text">Source from Industry Hubs</p>
+    </div>
+    <div class="ecom_service_img">
+      <img
+        src="../../../assets/ExtraServices/image1.png"
+        alt="extraService"
+        title="extaService"
+      />
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <p class="ecom_services_text">Source from Industry Hubs</p>
+    </div>
+    <div class="ecom_service_img">
+      <img
+        src="../../../assets/ExtraServices/image1.png"
+        alt="extraService"
+        title="extaService"
+      />
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <p class="ecom_services_text">Source from Industry Hubs</p>
+    </div>
+    <div class="ecom_service_img">
+      <img
+        src="../../../assets/ExtraServices/image1.png"
+        alt="extraService"
+        title="extaService"
+      />
+      <a href=""> <i class="fa-solid fa-magnifying-glass"></i></a>
+      <p class="ecom_services_text">Source from Industry Hubs</p>
+    </div>
+  </div>
+  <!-- country region -->
+
+  <p class="ecom_region_heading">Suppliers by region</p>
+  <div class="ecom_region">
+    <div class="ecom_region_Country" *ngFor="let country of CountryArray">
+      <div class="ecom_coutry">
+        <img src="{{ country.countryFlag }}" alt="{{ country.countryName }}" />
+        <div>
+          <div>{{ country.countryName }}</div>
+          <a href="{{ country.website }}" target="_blank">shopname.au</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
